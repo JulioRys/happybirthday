@@ -11,25 +11,28 @@ tools:context=".MainActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/androidparty" />
+        android:src="@drawable/futurama2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday, Chelita!"
-        android:textSize="36sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
-        android:padding="16dp"/>
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Happy 3018th Halloween!"
+        android:textColor="#FF6D00"
+        android:background="#99141414"
+        android:textSize="38sp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:text="From, JulioR!"
+        android:text="From, Nibbler!"
+        android:gravity="center"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
+        android:textColor="#FF6D00"
+        android:background="#99141414"
         android:padding="16dp"/>
 </RelativeLayout>
